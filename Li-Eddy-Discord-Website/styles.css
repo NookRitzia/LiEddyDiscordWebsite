@@ -1,0 +1,11 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+}
+
+.grad-background {
+    background-image: radial-gradient(#fc2403, #fcad03);
+    background-image: radial-gradient(#ffbb00, #ffee00,, #000000);
+    height: 100vh;
+    width: 100%;
+}
