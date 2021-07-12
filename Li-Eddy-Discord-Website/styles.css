@@ -3,9 +3,36 @@
     margin: 0;
 }
 
+
 .grad-background {
-    background-image: radial-gradient(#fc2403, #fcad03);
-    background-image: radial-gradient(#ffbb00, #ffee00,, #000000);
+    animation: background-color-animation infinite 3s;
     height: 100vh;
     width: 100%;
+}
+
+/*
+    Background color will go from Red to Green to Blue as an animation
+*/
+@keyframes background-color-animation {
+    0% {
+        background-color: #FF0000;
+    }
+    16% {
+        background-color: #FFFF00;
+    }
+    33% {
+        background-color: #00FF00;
+    }
+    49% {
+        background-color: #00FFFF;
+    }
+    67% {
+        background-color: #0000FF;
+    }
+    83% {
+        background-color: #FF00FF;
+    }
+    100% {
+        background-color: #FF0000;
+    }
 }
