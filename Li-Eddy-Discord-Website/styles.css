@@ -36,3 +36,30 @@
         background-color: #FF0000;
     }
 }
+
+.city-background-color {
+    background-color: rgba(30, 26, 27);
+    width: 100vw;
+    height: 775px;
+    overflow: hidden;
+
+}
+
+.grey-city-image {
+    
+    width: 1920px;
+    height: 775px;
+    
+    background-color: rgba(30, 26, 27);
+    background-image: url("../Top Bar/Pictures/City.png");
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+     
+}
+
+.middle-grey-background {
+    background-color: rgba(75, 75, 77);
+    width: 100vw;
+    height: 100vh;
+}
