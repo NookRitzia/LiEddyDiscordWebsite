@@ -3,38 +3,9 @@
     margin: 0;
 }
 
-
-.grad-background {
-    animation: background-color-animation infinite 3s;
-    height: 100vh;
-    width: 100%;
-}
-
-/*
-    Background color will go from Red to Green to Blue as an animation
-*/
-@keyframes background-color-animation {
-    0% {
-        background-color: #FF0000;
-    }
-    16% {
-        background-color: #FFFF00;
-    }
-    33% {
-        background-color: #00FF00;
-    }
-    49% {
-        background-color: #00FFFF;
-    }
-    67% {
-        background-color: #0000FF;
-    }
-    83% {
-        background-color: #FF00FF;
-    }
-    100% {
-        background-color: #FF0000;
-    }
+@font-face {
+    font-family: 'Brush Script MT';
+    src: url("fonts/BRUSHSCI.ttf");
 }
 
 .city-background-color {
@@ -51,7 +22,6 @@
     max-width: 100%;
     background-repeat: no-repeat;
     background-color: rgba(30, 26, 27);
-    background-image: url("../Top Bar/Pictures/City.png");
     position: absolute;
     left: 50%;
     top: -120px;
@@ -65,3 +35,25 @@
     height: 100vh;
     max-width: 100%;
 }
+
+.isaac-newton-image {
+    width: 333px;
+    height: 333px;
+    border: 10px solid white;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -30%);
+}
+
+.discord-logo {
+    position: absolute;
+    width: 76px;
+    height: 74px;
+    top: 30%;
+    left: 30%;
+    fill: white;
+    color: white;
+}
+
