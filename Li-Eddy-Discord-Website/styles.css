@@ -40,26 +40,28 @@
 .city-background-color {
     background-color: rgba(30, 26, 27);
     width: 100vw;
-    height: 775px;
+    height: 1080px;
     overflow: hidden;
-
+    max-width: 100%;
 }
 
 .grey-city-image {
-    
     width: 1920px;
-    height: 775px;
-    
+    height: 1200px;
+    max-width: 100%;
+    background-repeat: no-repeat;
     background-color: rgba(30, 26, 27);
     background-image: url("../Top Bar/Pictures/City.png");
     position: absolute;
     left: 50%;
+    top: -120px;
     transform: translate(-50%, 0);
-     
+    overflow: hidden;
 }
 
 .middle-grey-background {
     background-color: rgba(75, 75, 77);
     width: 100vw;
     height: 100vh;
+    max-width: 100%;
 }
