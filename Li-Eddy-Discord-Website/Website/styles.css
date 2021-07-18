@@ -1,0 +1,25 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.grey-city-background {
+    background-color: rgba(30, 26, 27);
+    width: 100vw;
+    max-width: 100%;
+    height: 1200px;
+    
+}
+
+
+.city-image {
+    width: 1920px;
+    height: 1200px;
+    max-width: 100%;
+    position: absolute;
+    left: 50%;
+    background-repeat: no-repeat;
+    transform: translate(-50%, 0);
+}
