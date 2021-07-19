@@ -1,7 +1,7 @@
 ﻿body {
     padding: 0;
     margin: 0;
-    
+    font-family: 'Brush Script MT';
 }
 
 @font-face {
@@ -18,32 +18,97 @@
 
 .city-image {
     position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
+    background-position: center;
+    background-image: url("../Top Bar/Pictures/City.png");
     max-width: 100%;
     height: 775px;
+    background-repeat: no-repeat;
 }
 
 .main-space-background {
     background-color: rgba(75,77,77);
     width: 100vw;
     max-width: 100%;
-    height: 100vh;
+    height: 3924px;
 }
 
-.isaac-newton-img {
+.isaac-newton-image {
     width: 333px;
     height: 333px;
-    border: 10px solid white;
-    border-radius: 10px;
-    position: relative;
+    border: min(10px, 0.75vw) solid white;
+    border-radius: min(15px, 1.5vw);
+    position: absolute;
     left: 50%;
     top: 20%;
     transform: translate(-50%, -20%);
+    max-width: 40vmin;
+    max-height: 40vmin;
 }
+
+.isaac-newton-text {
+    color: white;
+    font-size: 150px;
+    line-break: strict;
+    
+    width: max(960px, 20vw);
+    font-size: min(150px, 6vw);
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: relative;
+}
+
+
 
 .image {
     object-fit: contain;
     width: 100%;
     height: 100%;
+}
+
+.top-bar {
+    display: inline-block;
+  /*  border: 2px solid red; */
+    width: 100vw;
+    max-width: 100%;
+}
+
+.discord-text {
+    color: white;
+    font-size: min(5vw, 65px);
+    display: inline-block;
+    margin: 10px;
+    padding: 2px;
+}
+
+.top-bar-element {
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    padding: 5px;
+    
+    font-size: min(4vw, 47px);
+    color: white;
+    top: 0%;
+    border: 0px solid red; 
+    max-width: 14%;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.join-button {
+    font-size: min(75px, 4vw);
+    border: min(10px, 0.75vw) solid white;
+    color: white;
+    text-align: center;
+    border-radius: min(15px, 1.5vw);
+    background-color: rgba(75, 75, 77, 0.66);
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    cursor: pointer;
+}
+
+button {
+    font-family: 'Brush Script MT';
 }
