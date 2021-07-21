@@ -148,15 +148,17 @@ button {
     font-size: 50px;
     color: red;
     float: left;
+ 
 }
 
 .bottom-isaac-text {
     position: relative;
-   /* display: inline-block; */
+    /* display: inline-block; */
     font-size: 50px;
     float: left;
     margin: 10px;
     left: 80px;
+    font-size: min(50px, 2.5vw);
 }
 
 .social-media-bar {
@@ -168,14 +170,27 @@ button {
 }
 
 .social-media-icons {
-    width: 33px;
-    height: 33px;
+    width: min(33px, 2vw);
+    height: min(33px, 2vw);
     margin-left: 20px;
 }
 
-.bottom-bar-text {
-    position: absolute;
-    font-size: 45px;
+.bottom-bar-language {
+    float: right;
     margin-top: 30px;
-    border: 5px solid red;
+    margin-right: 45px;
+    font-size: 40px;
+    font-size: min(45px, 2vw);
 }
+
+.bottom-bar-text {
+    position: relative;
+    margin-top: 30px;
+    display: inline-block;
+    float: left;
+    margin-left: min(50px, 2.5vw);
+    font-size: min(45px, 2vw);
+}
+
+
+
