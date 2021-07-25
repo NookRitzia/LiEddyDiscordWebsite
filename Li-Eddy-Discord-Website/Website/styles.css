@@ -153,7 +153,6 @@ button {
 
 .bottom-isaac-text {
     position: relative;
-    /* display: inline-block; */
     font-size: 50px;
     float: left;
     margin: 10px;
@@ -191,6 +190,23 @@ button {
     margin-left: min(50px, 2.5vw);
     font-size: min(45px, 2vw);
 }
+
+.main-image {
+    border: min(10px, 0.5vw) solid white;
+    border-radius: min(10px, 0.5vw);
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+
+.middle-main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    overflow-wrap: break-word;
+}
+
+
 
 
 
