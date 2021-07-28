@@ -3,6 +3,7 @@
     margin: 0;
     font-family: 'Cream Cake';
     color: white;
+
 }
 
 @font-face {
@@ -32,6 +33,7 @@
     height: 775px;
     background-repeat: no-repeat;
     overflow: hidden;
+
 }
 
 .main-space-background {
@@ -39,6 +41,7 @@
     width: 100vw;
     max-width: 100%;
     height: 3924px;
+    
 }
 
 .isaac-newton-image {
@@ -191,20 +194,17 @@ button {
     font-size: min(45px, 2vw);
 }
 
-.main-image {
-    border: min(10px, 0.5vw) solid white;
-    border-radius: min(10px, 0.5vw);
-    object-fit: fill;
-    width: 100%;
-    height: 100%;
 
-}
-
-.middle-main {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    overflow-wrap: break-word;
+.middle-main-container {
+    border: 10px solid red;
+    height: 400px;
+    width: 1920px;
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+    font-size: 50px;
+    transform: translate(-50%, 0%);
+    left: 50%;
 }
 
 
