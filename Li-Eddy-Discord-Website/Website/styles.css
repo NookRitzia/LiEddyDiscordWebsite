@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Cream Cake';
+    font-family: Calibri;
     color: white;
 
 }
@@ -216,11 +217,11 @@ button {
     display: inline-block;
     position: absolute;
     width: min(450px, 18vw);
-    height: inherit;
-    top: 50%;
-    font-size: min(50px, 2vw);
+    transform: translate(0%, 50%);
+    font-size: min(20px, 1vw);
     margin-left: max(25px, 5%);
     margin-top: 6%;
+    margin-right: max(25px, 5%);
 }
 
 
