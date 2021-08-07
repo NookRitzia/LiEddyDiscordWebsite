@@ -58,15 +58,14 @@
     font-size: min(60px, 3.13vw);
     font-weight: bold;
     top: 15%;
-    left: 5%;
+    left: 7%;
 }
 
 .course-image {
     width: 416px;
     height: 234px;
-
-    width: min(21.67vw, 416px);
-    height: min(12.19vw, 234px);
+    width: min(18.23vw, 350px);
+    height: min(10.2vw, 196px);
     position: relative;
     left: 50%;
     top: 10%;
@@ -81,12 +80,12 @@
     left: 50%;
     transform: translate(-50%, 0);
     /* border: 3px solid green; */
-    width: min(21.67vw, 416px);
+    width: min(18.23vw, 350px);
     margin-top: 60px;
 }
 
 .read-more-button {
-    width: min(21.67vw, 416px);
+    width: min(18.23vw, 350px);
     background-color: black;
     color: white;
     font-size: min(40px, 2.1vw);
@@ -103,7 +102,7 @@
     position: relative;
     color: black;
     font-size: min(20px, 1vw);
-    width: min(21.67vw, 416px);
+    width: min(18.23vw, 350px);
     left: 50%;
     transform: translate(-50%, 0);
     font-weight: bold;
