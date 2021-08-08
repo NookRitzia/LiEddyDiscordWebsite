@@ -18,3 +18,19 @@ About us Front Page Image
 
 https://fonts.google.com/icons?icon.query=Search
 Search Icon
+
+https://fonts.google.com/icons?icon.query=Arrow
+Forward Arrow Icon
+
+https://fonts.google.com/icons?icon.query=Arrow
+Backward Arrow Icon
+
+https://fonts.google.com/icons?icon.query=shop
+Shopping Cart Icon
+
+https://www.flaticon.com/free-icon/price-tag_2977921?term=discount&page=1&position=6&page=1&position=6&related_id=2977921&origin=search
+Price Tag Icon
+
+https://www.flaticon.com/free-icon/loupe_622669?term=search&page=1&position=2&page=1&position=2&related_id=622669&origin=search
+Search Icon
+
