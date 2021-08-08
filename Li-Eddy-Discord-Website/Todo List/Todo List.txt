@@ -1,4 +1,7 @@
-Finish Resizing bottom Bar (Bottom Bar W-1920 H-129) (Issac Newton Image - W-68 H-68) (Issac Newton Text - Calibri-35 Italic) (Social Media Icons - Size-W-26 H-26 With a 22px Gap between each Icon, Starting Icon at X-108 Y-3523 and Ending at x-260 y-3523) (Resources X-716 Y-3459 Calibri 28 Italic , Staff X-933 Y-3459 Calibri 28 Italic, Policy X-1089  Y-4044) (Down arrow for english  W-51 H-79 X-1664 Y-4029, "English-Usa" Calibri 24 Italic X-1711 Y-4053, US Flag W-31 H-18 X-1839 Y-4061) 
+Finish Resizing bottom Bar (Bottom Bar W-1920 H-129) (Issac Newton Image - W-68 H-68) (Issac Newton Text - Calibri-35 Italic) (Social Media Icons - Size-W-26 H-26 With a 22px Gap between each Icon, Starting Icon at X-108 Y-3523 and Ending at x-260 y-3523) (Resources X-716 Y-3459 Calibri 28 Italic , Staff X-933 Y-3459 Calibri 28 Italic, Policy X-1089  Y-4044) (Down arrow for english  W-51 H-79 X-1664 Y-4029, "English-Usa" Calibri 24 Italic X-1711 Y-4053, US Flag W-31 H-18 X-1839 Y-4061)
+*your ridiculous putting 500+ characters on one line ;-;*
 Resize event page (Contact me when you do so) 
 
 Resizing Discord Top Bar (Discord Icon matches around the same size as the Discord font) (Discord Icon W-50 H-50) (Discord Font - Bolded 40 Calibri) 
+
+Use CSS style "user-select" to disable highlighting webpage elements (especially bubbles, pictures, buttons, etc)
