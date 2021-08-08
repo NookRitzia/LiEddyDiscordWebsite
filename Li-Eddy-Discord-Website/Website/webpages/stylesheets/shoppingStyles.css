@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    color: white;
+    font-family: Calibri;
 }
 
 .gradient-background {
@@ -25,7 +27,6 @@
     max-height: 100vh;
     transform: translate(-50%, 0);
     overflow: hidden;
-    border: 5px solid red;
 }
 
 .centered-description {
@@ -35,7 +36,6 @@
     font-style: italic;
     text-align: center;
     position: relative;
-    border: 5px solid green;
     top: min(100vh, 1080px);
     margin-top: min(50px, 2.6vw);
     position: relative;
@@ -46,14 +46,39 @@
     position: absolute;
     transform: translate(-50%, 0);
     width: min(840px,43.75vw);
-
+    height: min(500px, 26vw);
 }
 
 .scrolling-image-wrapper {
     position: relative;
-    border: 5px solid pink;
     top: min(105vh, 1134px);
     object-fit: contain;
+    height: min(550px, 28.65vw);
+}
+
+.image-navigator {
+    top: 145%;
+    left: 100%;
+    transform: translate(max(-190px, -9.9vw), 0);
+    font-family: Calibri;
+    font-size: min(25px, 1.3vw);
+    color: white;
+    position: relative;
+}
+
+.image-title {
+    font-size: min(35px, 1.82vw);
+    font-weight: bold;
+}
+
+.image-price {
+    font-size: min(25px, 1.3vw);
+    font-weight: bold;
+}
+
+.image-description {
+    font-size: min(20px, 1.042vw);
+    width: 40%;
 }
 /*
     calibri 25 italic

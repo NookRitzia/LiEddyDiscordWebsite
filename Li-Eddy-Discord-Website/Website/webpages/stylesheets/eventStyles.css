@@ -97,6 +97,11 @@
     padding: 5px;
 }
 
+.read-more-button:hover {
+    transform: translate(-50%, 0) scale(1.1, 1.1);
+    cursor: pointer;
+}
+
 .course-difficulty {
     position: relative;
     color: black;
