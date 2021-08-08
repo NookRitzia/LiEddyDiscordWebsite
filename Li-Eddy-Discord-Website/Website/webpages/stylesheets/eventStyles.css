@@ -79,7 +79,6 @@
     font-weight: bold;
     left: 50%;
     transform: translate(-50%, 0);
-    /* border: 3px solid green; */
     width: min(18.23vw, 350px);
     margin-top: 60px;
 }
@@ -106,7 +105,6 @@
     left: 50%;
     transform: translate(-50%, 0);
     font-weight: bold;
-    /*border: 3px solid blue;*/
     display: inline-block;
     margin-top: min(20px, 1vw);
 }

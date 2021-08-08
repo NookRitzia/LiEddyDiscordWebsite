@@ -1,9 +1,9 @@
 // JavaScript source code
-let buttonIDs = ["TopDiscordLogoButton", "TopDiscordTextButton", "TopAboutButton", "TopCoursesButton", "TopEventsButton",
+let buttonIDs = ["TopDiscordLogoButton", "TopDiscordTextButton", "TopCoursesButton", "TopEventsButton", "TopShopButton",
     "TopSupportButton", "BottomYoutubeButton", "BottomTwitterButton", "BottomFacebookButton", "BottomInstagramButton",
     "BottomResourcesButton", "BottomCoursesButton", "BottomPolicyButton"];
 
-let buttonLinks = ["https://discord.com/", "https://discord.com/", "About.html", null, "Events.html",
+let buttonLinks = ["https://discord.com/", "https://discord.com/", null, "Events.html", "Shopping.html",
     null, "https://www.youtube.com/user/NookRitzia", "https://twitter.com/", "https://www.facebook.com/", "https://www.instagram.com/nookysnooky/",
     null, null, null];
 
@@ -23,9 +23,4 @@ function assignButtonLinks() {
     return true;
 }
 
-
-
 assignButtonLinks();
-
-
-
