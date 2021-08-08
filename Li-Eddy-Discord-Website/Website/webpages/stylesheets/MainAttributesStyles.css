@@ -100,7 +100,7 @@
     margin-top: 30px;
     margin-right: 45px;
     font-size: min(24px, 1.25vw);
-    transform: translate(0, )
+    transform: translate(0, 0%);
 }
 
 .bottom-bar-text {
@@ -113,4 +113,18 @@
 }
 
 
+.top-bar-element:hover {
+    transform: scale(1.2, 1.2);
+}
 
+.discord-text:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.social-media-icons:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.bottom-bar-text:hover {
+    transform: scale(1.2, 1.2);
+}
