@@ -30,8 +30,8 @@ let indexDisplay = document.getElementById("IndexDisplay");
 
 
 
-let dissapearAnimation = [{ opacity: 1, easing: 'ease-in' }, { opacity: 0.3, easing: 'ease-out' }];
-let appearAnimation = [{ opacity: 0.3, easing: 'ease-in' }, { opacity: 1, easing: 'ease-in' }];
+let dissapearAnimation = [{ opacity: 1, easing: 'ease-in' }, { opacity: 0.2, easing: 'ease-out' }];
+let appearAnimation = [{ opacity: 0.2, easing: 'ease-in' }, { opacity: 1, easing: 'ease-in' }];
 
 function hideImages(time) {
     for (let i = 0; i < IMAGE_ELEMENT.length; i++)

@@ -13,7 +13,8 @@
     background-image: linear-gradient(90deg, #CCCCCC, #7331C9);
     height: 2250px;
     overflow: hidden;
-    min-height: 100vh;
+    max-height: 230vh;
+    /*padding-bottom: min(100px, 2.6vw); */
 }
 
 .top-centered-content {
@@ -53,17 +54,24 @@
     position: relative;
     top: min(105vh, 1134px);
     object-fit: contain;
-    height: min(550px, 28.65vw);
+    height: min(700px, 36.5vw);
 }
 
 .image-navigator {
+    /*
     top: 145%;
     left: 100%;
     transform: translate(max(-190px, -9.9vw), 0);
     font-family: Calibri;
     font-size: min(25px, 1.3vw);
     color: white;
-    position: relative;
+    */
+    top: 105%;
+    right: 1%;
+    font-size: min(25px, 1.3vw);
+    font-family: Calibri;
+    position: absolute;
+    width: fit-content;
 }
 
 .image-title {
@@ -79,6 +87,68 @@
 .image-description {
     font-size: min(20px, 1.042vw);
     width: 40%;
+}
+
+.page-splitter-wrapper {
+    width: 100vw;
+    max-width: 100%;
+    height: 100px;
+    position: relative;
+    border: 3px solid grey;
+}
+
+.background-solid {
+    width: 100vw;
+    max-width: 100%;
+    height: 1650px;
+    background-color: #E2DDEC;
+}
+
+.page-splitter-right-content {
+    position: relative;
+    color: black;
+    font-size: min(30px, 1.56vw);
+    list-style: none;
+    float: right;
+    padding: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.page-splitter-left-content {
+    position: relative;
+    color: black;
+    list-style: none;
+    top: 50%;
+    float: left;
+    transform: translateY(-50%);
+}
+
+.page-splitter-left-content li {
+    display: inline-block;
+    font-size: min(30px, 1.56vw);
+    font-weight: bold;
+    
+}
+
+.page-splitter-right-content li {
+    display: inline-block;
+    margin-left: min(75px, 3.9vw);
+
+}
+
+.search-bar {
+    border: 2px solid grey;
+    width: 50vw;
+    background-color: transparent;
+    color: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-45%, -50%);
+    float: left;
+    height: min(40px, 2.08vw);
+    
 }
 /*
     calibri 25 italic
