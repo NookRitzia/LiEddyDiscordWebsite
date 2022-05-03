@@ -4,7 +4,7 @@ let buttonIDs = ["TopDiscordLogoButton", "TopDiscordTextButton", "TopCoursesButt
     "BottomResourcesButton", "BottomCoursesButton", "BottomPolicyButton"];
 
 let buttonLinks = ["https://discord.com/", "https://discord.com/", null, "Events.html", "Shopping.html",
-    null, "https://www.youtube.com/user/NookRitzia", "https://twitter.com/", "https://www.facebook.com/", "https://www.instagram.com/nookysnooky/",
+    null, "https://www.youtube.com", "https://twitter.com/", "https://www.facebook.com/", "https://www.instagram.com",
     null, null, null];
 
 function assignButtonLinks() {
